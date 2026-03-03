@@ -134,35 +134,35 @@ jobs:
             echo "⚠️ Skipping archive - no latest.json to archive"
           fi
       
-      - name: Update README with last sync time
-        if: success()
-        run: |
-          SYNC_TIME=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
-          
-          if [ -f README.md ]; then
-            echo "Current README content (first 5 lines):"
-            head -5 README.md
+#      - name: Update README with last sync time
+#        if: success()
+#        run: |
+ #         SYNC_TIME=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+  #        
+#          if [ -f README.md ]; then
+ #           echo "Current README content (first 5 lines):"
+  #          head -5 README.md
+ #           
+#            if grep -q "Last successful sync:" README.md; then
+ #             echo "Found existing timestamp line, updating..."
+ #             sed -i "s/\*\*Last successful sync:\*\*.*/\*\*Last successful sync:\*\* ${SYNC_TIME}/" README.md
+  #          else
+   #           echo "No timestamp found, adding new line..."
+   #           sed -i "/badge.svg)/a\\\n\*\*Last successful sync:\*\* ${SYNC_TIME}\n" README.md
+    #        fi
+            #
+ #           echo "Updated README content (first 5 lines):"
+  #          head -5 README.md
             
-            if grep -q "Last successful sync:" README.md; then
-              echo "Found existing timestamp line, updating..."
-              sed -i "s/\*\*Last successful sync:\*\*.*/\*\*Last successful sync:\*\* ${SYNC_TIME}/" README.md
-            else
-              echo "No timestamp found, adding new line..."
-              sed -i "/badge.svg)/a\\\n\*\*Last successful sync:\*\* ${SYNC_TIME}\n" README.md
-            fi
-            
-            echo "Updated README content (first 5 lines):"
-            head -5 README.md
-            
-            if ! git diff --quiet README.md; then
-              git add README.md
-              git commit -m "Update last sync timestamp: ${SYNC_TIME}"
-              git push
-              echo "✅ README updated with sync time: ${SYNC_TIME}"
-            else
-              echo "⚠️ No changes detected in README"
-            fi
-          fi
+   #         if ! git diff --quiet README.md; then
+    #          git add README.md
+#              git commit -m "Update last sync timestamp: ${SYNC_TIME}"
+ #             git push
+  #            echo "✅ README updated with sync time: ${SYNC_TIME}"
+ #           else
+  #            echo "⚠️ No changes detected in README"
+   #         fi
+#          fi
       
       - name: Show result
         run: |
