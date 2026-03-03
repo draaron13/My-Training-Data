@@ -144,6 +144,8 @@ jobs:
       - name: Update README with last sync time
         if: success()
         run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           SYNC_TIME=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
           
           if [ -f README.md ]; then
