@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-03T03:15:25.571770",
+  "generated_at": "2026-03-03T03:19:03.019727",
   "source": "Intervals.icu API",
   "sync_version": "3.6.4",
   "data_range": {
@@ -979,7 +979,7 @@
       "total_hours": 0.5,
       "total_tss": 20,
       "activity_count": 2,
-      "activity_types": "Unknown, VirtualRide",
+      "activity_types": "VirtualRide, Unknown",
       "ctl": 71.22529,
       "atl": 76.13015,
       "tsb": -4.9,
@@ -1055,7 +1055,7 @@
       "total_hours": 2.41,
       "total_tss": 96,
       "activity_count": 3,
-      "activity_types": "VirtualRide, WeightTraining",
+      "activity_types": "WeightTraining, VirtualRide",
       "ctl": 70.1445,
       "atl": 71.0429,
       "tsb": -0.9,
@@ -1150,7 +1150,7 @@
       "total_hours": 0.6,
       "total_tss": 6,
       "activity_count": 3,
-      "activity_types": "Unknown, WeightTraining",
+      "activity_types": "WeightTraining, Unknown",
       "ctl": 70.05241,
       "atl": 70.42173,
       "tsb": -0.4,
