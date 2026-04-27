@@ -8,13 +8,13 @@
     "quick_stats": {
       "total_training_hours": 1.85,
       "total_training_formatted": "1h50m",
-      "total_activities": 9,
+      "total_activities": 10,
       "total_tss": 105
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-27T19:59:09.222315",
+    "last_updated": "2026-04-27T21:12:50.457653",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.6.4"
@@ -41,11 +41,11 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 1.85,
-    "total_activities": 9,
+    "total_activities": 10,
     "by_activity_type": {
       "Unknown": {
         "duration_decimal_hours": 0.0,
-        "count": 7,
+        "count": 8,
         "tss": 0,
         "distance_km": 0.0
       },
@@ -59,10 +59,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 81.71,
-      "atl": 81.48,
-      "tsb": 0.23,
-      "ramp_rate": 0.17,
+      "ctl": 83.5,
+      "atl": 91.6,
+      "tsb": -8.1,
+      "ramp_rate": 1.96,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -222,10 +222,9 @@
       "matched_days": 0,
       "note": "No planned workouts in period"
     },
-    "phase_detected": "Taper",
+    "phase_detected": "Indeterminate",
     "phase_triggers": [
-      "TSB 0.23 positive",
-      "CTL stable/declining"
+      "Insufficient data for phase detection"
     ],
     "seasonal_context": "Late Base / Build",
     "benchmark_indoor": {
@@ -248,12 +247,12 @@
     "p_max": 1549,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-27T19:59:09.221461",
+    "calculation_timestamp": "2026-04-27T21:12:50.456841",
     "data_quality": {
       "hrv_data_points": 2,
       "rhr_data_points": 2,
-      "activities_7d": 9,
-      "activities_28d": 41,
+      "activities_7d": 10,
+      "activities_28d": 42,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
@@ -264,7 +263,7 @@
   "recent_activities": [
     {
       "id": "activity_1",
-      "date": "2026-04-26T08:50:16",
+      "date": "2026-04-27T08:09:59",
       "type": "Unknown",
       "name": "",
       "duration_hours": 0.0,
@@ -297,7 +296,7 @@
     },
     {
       "id": "activity_2",
-      "date": "2026-04-24T06:04:53",
+      "date": "2026-04-26T08:50:16",
       "type": "Unknown",
       "name": "",
       "duration_hours": 0.0,
@@ -330,7 +329,7 @@
     },
     {
       "id": "activity_3",
-      "date": "2026-04-23T18:06:08",
+      "date": "2026-04-24T06:04:53",
       "type": "Unknown",
       "name": "",
       "duration_hours": 0.0,
@@ -363,7 +362,7 @@
     },
     {
       "id": "activity_4",
-      "date": "2026-04-23T14:24:14",
+      "date": "2026-04-23T18:06:08",
       "type": "Unknown",
       "name": "",
       "duration_hours": 0.0,
@@ -396,7 +395,7 @@
     },
     {
       "id": "activity_5",
-      "date": "2026-04-23T08:14:32",
+      "date": "2026-04-23T14:24:14",
       "type": "Unknown",
       "name": "",
       "duration_hours": 0.0,
@@ -429,6 +428,39 @@
     },
     {
       "id": "activity_6",
+      "date": "2026-04-23T08:14:32",
+      "type": "Unknown",
+      "name": "",
+      "duration_hours": 0.0,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null
+    },
+    {
+      "id": "activity_7",
       "date": "2026-04-22T19:52:48",
       "type": "VirtualRide",
       "name": "Zwift - Three Step Sisters in Watopia",
@@ -480,7 +512,7 @@
       }
     },
     {
-      "id": "activity_7",
+      "id": "activity_8",
       "date": "2026-04-21T18:17:14",
       "type": "VirtualRide",
       "name": "Zwift - vo2 30-15",
@@ -532,7 +564,7 @@
       }
     },
     {
-      "id": "activity_8",
+      "id": "activity_9",
       "date": "2026-04-21T16:10:18",
       "type": "Unknown",
       "name": "",
@@ -565,7 +597,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_9",
+      "id": "activity_10",
       "date": "2026-04-21T08:12:47",
       "type": "Unknown",
       "name": "",
@@ -725,7 +757,7 @@
     "total_training_hours": 1.85,
     "total_training_formatted": "1h50m",
     "total_tss": 105,
-    "activities_count": 9,
+    "activities_count": 10,
     "avg_hrv": 69.0,
     "avg_resting_hr": 38.5
   },
