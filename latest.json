@@ -8,13 +8,13 @@
     "quick_stats": {
       "total_training_hours": 8.57,
       "total_training_formatted": "8h34m",
-      "total_activities": 6,
+      "total_activities": 7,
       "total_tss": 411
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-19T07:59:20.375667",
+    "last_updated": "2026-11-19T17:16:30.586759",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.6.4"
@@ -41,13 +41,19 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 8.57,
-    "total_activities": 6,
+    "total_activities": 7,
     "by_activity_type": {
       "Ride": {
         "duration_decimal_hours": 5.86,
         "count": 4,
         "tss": 248,
         "distance_km": 153.9
+      },
+      "Unknown": {
+        "duration_decimal_hours": 0.0,
+        "count": 1,
+        "tss": 0,
+        "distance_km": 0.0
       },
       "VirtualRide": {
         "duration_decimal_hours": 2.71,
@@ -59,10 +65,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 86.06,
-      "atl": 66.19,
-      "tsb": 19.87,
-      "ramp_rate": -5.06,
+      "ctl": 87.16,
+      "atl": 72.45,
+      "tsb": 14.71,
+      "ramp_rate": -3.95,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -110,9 +116,9 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 49,
+    "rhr_baseline_7d": 58,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 67.5,
+    "rhr_baseline_28d": 66.8,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 0.74,
@@ -224,7 +230,7 @@
     },
     "phase_detected": "Recovery",
     "phase_triggers": [
-      "TSB 19.87 > +10"
+      "TSB 14.71 > +10"
     ],
     "seasonal_context": "Off-season / Transition",
     "benchmark_indoor": {
@@ -247,12 +253,12 @@
     "p_max": 1403,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-19T07:59:20.374104",
+    "calculation_timestamp": "2026-11-19T17:16:30.585241",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 1,
-      "activities_7d": 6,
-      "activities_28d": 41,
+      "rhr_data_points": 3,
+      "activities_7d": 7,
+      "activities_28d": 42,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
@@ -263,6 +269,39 @@
   "recent_activities": [
     {
       "id": "activity_1",
+      "date": "2026-11-19T10:15:45",
+      "type": "Unknown",
+      "name": "",
+      "duration_hours": 0.0,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null
+    },
+    {
+      "id": "activity_2",
       "date": "2026-11-18T13:44:27",
       "type": "Ride",
       "name": "Training Session",
@@ -314,7 +353,7 @@
       }
     },
     {
-      "id": "activity_2",
+      "id": "activity_3",
       "date": "2026-11-17T15:00:33",
       "type": "Ride",
       "name": "Training Session",
@@ -366,7 +405,7 @@
       }
     },
     {
-      "id": "activity_3",
+      "id": "activity_4",
       "date": "2026-11-17T09:34:49",
       "type": "Ride",
       "name": "Training Session",
@@ -418,7 +457,7 @@
       }
     },
     {
-      "id": "activity_4",
+      "id": "activity_5",
       "date": "2026-11-15T09:53:31",
       "type": "VirtualRide",
       "name": "Zwift - Watt Goes Up Must Come Down in Watopia",
@@ -470,7 +509,7 @@
       }
     },
     {
-      "id": "activity_5",
+      "id": "activity_6",
       "date": "2026-11-14T14:38:57",
       "type": "Ride",
       "name": "Training Session",
@@ -522,7 +561,7 @@
       }
     },
     {
-      "id": "activity_6",
+      "id": "activity_7",
       "date": "2026-11-13T17:52:57",
       "type": "VirtualRide",
       "name": "Zwift - Laps, Camera, Traction in Watopia",
@@ -594,7 +633,7 @@
     {
       "date": "2026-11-14",
       "weight_kg": null,
-      "resting_hr": null,
+      "resting_hr": 58,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
       "sleep_hours": null,
@@ -642,7 +681,7 @@
     {
       "date": "2026-11-17",
       "weight_kg": null,
-      "resting_hr": null,
+      "resting_hr": 67,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
       "sleep_hours": null,
@@ -701,9 +740,9 @@
     "total_training_hours": 8.57,
     "total_training_formatted": "8h34m",
     "total_tss": 411,
-    "activities_count": 6,
+    "activities_count": 7,
     "avg_hrv": null,
-    "avg_resting_hr": 49.0
+    "avg_resting_hr": 58.0
   },
   "race_calendar": {
     "next_race": null,
